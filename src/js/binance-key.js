@@ -3,7 +3,7 @@ module.exports = {
 
         binance.options({
             'APIKEY':'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-            'APISECRET':'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+            'APISECRET':'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXl'
         });
 
 

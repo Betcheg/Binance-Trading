@@ -17,11 +17,12 @@ function start() {
 
 
 const binance = require('node-binance-api');
-
 const binanceAPIkey = require('../secret_key/binance-key');
+
+// Set the API key 
 binanceAPIkey.setAPI(binance);
 
-
+// Start the bot
 setInterval(start, 1000);
 
 
