@@ -10,6 +10,8 @@ $(document).ready(function(){
     });
 
     socket.on('disconnect', function(msg){
+        balanceWTC = 0;
+        lastWTCPrice = 0;
         $('.content').prepend("<i> Disconnected </i><br>");
         $('.titre').html("State: <span class='red'> <b>Disconnected</b> </span>");
     });

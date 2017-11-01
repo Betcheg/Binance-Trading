@@ -41,7 +41,7 @@ app.get('/', function(req, res){
 
 // Start the web server
 http.listen(5555, function(){
-  console.log('listening on *:3000');
+  console.log('Server started !');
 });
 
 
