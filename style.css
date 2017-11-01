@@ -1,0 +1,109 @@
+body { 
+background-color: #D4D4D4;
+}
+
+.page-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+#state {
+    background-color: #EEEEEE;
+    width: 300px;
+    height: 650px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px orange;
+    float: right;
+    overflow-y: scroll;
+}
+
+.titre {
+    background-color: orange;
+    color: #2B2B2B;
+    padding-top: 5px;
+    padding-left: 25px;
+    height: 24px; 
+    line-height: 24px;
+}
+
+.content {
+    padding-top: 5px;
+    padding-left: 10px;
+ 
+}
+
+#price {
+    margin-top: -10px;
+    color: #DDDDDD;
+    margin-left: -15px;
+    padding-left: 15px;
+    margin-right: -20px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 1px 1px 5px #AAAAAA;
+    background-color: #2E2E2E;
+
+}
+
+.price-text {
+    margin-right: 25px;
+    margin: auto;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+
+
+#btc {
+    margin-left: 25px;
+}
+
+#link {
+    margin-left: 25px;
+}
+
+#wtc {
+    margin-left: 25px;
+}
+
+
+#candlesticks {
+    margin-top: 10px;
+width: 75%; 
+background-color: #EEEEEE;
+height: 80%;
+    box-shadow: 1px 1px 5px orange;
+}
+
+#frame {
+height : 100%;
+width: 100%;
+}
+
+#holding {
+    padding-left: 25px;
+    margin-right: 25px;
+    color: orange;
+    width: 97.5%;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 1px 1px 5px #AAAAAA;
+    background-color: #2E2E2E;
+
+}
+
+#holding .img{
+width: 16px;
+height: 16px;
+}
+
+

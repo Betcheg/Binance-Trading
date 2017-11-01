@@ -1,0 +1,70 @@
+
+
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <body>
+
+
+        <div class="page-content">
+
+
+            <!-- State block -->
+            <div id="state"> 
+                <div class="titre">
+                    State: </div>
+                <div class="content">
+                    [20:45] Made 1.01% profit<br>
+                    [20:45] Selling WTC for <span class="red">0.0012102</span><br>
+                    [20:45] Buying WTC for <span class="green">0.0011902</span><br>
+                    [20:43] Connected! <br>
+                    [20:43] Trying to connect...<br> 
+            
+            </div>
+            </div>
+
+            <!-- END State block -->
+  
+
+            <div id="price">
+                <span class="price-text"> Price: </span> 
+<span id="btc"> 1 BTC = 5900 USDT </span>
+<span id="wtc"> 0.0011903 WTC </span>
+<span id="link"> 0.0004502 LINK</span>
+
+            </div>
+                               
+
+            <div id="candlesticks">
+ 
+            <div id="holding">
+                <span class="price-text"> Holding: </span> 
+                <span id="btc"> 0 BTC <img src="https://files.coinmarketcap.com/static/img/coins/16x16/bitcoin.png"/> </span>
+                <span id="wtc"> 181 WTC <img src="https://files.coinmarketcap.com/static/img/coins/16x16/walton.png"/> </span>
+                <span id="link"> 4400 LINK <img src="https://files.coinmarketcap.com/static/img/coins/16x16/chainlink.png"/> </span>
+
+            </div>
+
+                <iframe id="frame" src="https://www.binance.com/trade.html?symbol=WTC_BTC" ></iframe> 
+
+            </div>
+
+
+
+        </div>
+
+
+    <script src="script.js"></script>
+
+    </body>
+
+
+
+</html>

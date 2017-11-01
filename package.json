@@ -1,0 +1,12 @@
+{
+  "name": "arbitrage",
+  "version": "1.0.0",
+  "description": "Arbitrage using binance API",
+  "main": "index.js",
+  "author": "Bastien Etchegoyen",
+  "private": true,
+  "license": "BSD",
+  "dependencies": {
+    "node-binance-api": "^0.2.0"
+  }
+}
